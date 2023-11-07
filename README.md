@@ -89,13 +89,29 @@ https://engineeringxpert.com/wp-content/uploads/2022/04/26.png
   
 
 ## STM 32 CUBE PROGRAM :
+Developed by: NITHIYANANDAN N
+Reg No. 212222230099
+
+void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
+  {
+	  if((GPIO_Pin == GPIO_PIN_0))
+	  {
+		  HAL_GPIO_TogglePin(GPIOA,GPIO_PIN_1);
+	  }
+  }
 
 
 
 ## Output screen shots of proteus  :
+![image](https://github.com/NITHIYANANDAN278/EXPERIMENT-06-INTERRUPT-GENERATION-USING-PUSHBUTTON-AND-SIMULATING-THE-OUTPUT-/assets/121784636/2a1b892a-2bdb-439b-bdcd-ad519124ce4a)
+![image](https://github.com/NITHIYANANDAN278/EXPERIMENT-06-INTERRUPT-GENERATION-USING-PUSHBUTTON-AND-SIMULATING-THE-OUTPUT-/assets/121784636/dbb187da-f7bf-41b2-923e-1b77de35b078)
+
+
  
  
  ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
+ ![image](https://github.com/NITHIYANANDAN278/EXPERIMENT-06-INTERRUPT-GENERATION-USING-PUSHBUTTON-AND-SIMULATING-THE-OUTPUT-/assets/121784636/dae8b01d-a891-49ae-acab-fe35f8d091a9)
+
  
  
 ## Result :
